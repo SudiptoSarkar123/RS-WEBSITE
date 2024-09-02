@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../css/feedback.css" class="css">
+    <link rel="stylesheet" href="../css/navigation.css" class="css">
+    <style>
+        
+        body{
+            
+            
+            background: rgb(223,175,255);
+    background: linear-gradient(266deg, rgba(223,175,255,1) 0%, rgba(16,182,182,1) 50%, rgba(255,201,125,1) 100%);
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/8d35169b18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navigation container1">
+            <div class="logo_container">
+                <img width="200px" src="../images\logo_1.png" alt="">
+            </div>
+        </div>
+        <ul>
+            <li><a href="../Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Menu</a>
+                <ul class="seen">
+                    <li><a href="food1_dal.html">Item 1</a></li>
+                    <li><a href="food2_much.html">Item 2</a></li>
+                    <li><a href="food3_dhoka.html">Item 3</a></li>
+                    <li><a href="food4_malicurry.html">Item 4</a></li>
+                    <li><a href="food5_chorchori.html">Item 5</a></li>
+                    <li><a href="food6_muttonKosha.html">Item 6</a></li>
+                    <li><a href="food7_sandash.html">Item 7</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html"> Food Gallery</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>  
+    
+    <div class="hero">
+        
+        <form>
+            <center>Feedback</center>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="phone" required>
+                    <label for="phone"><i class="fa-solid fa-phone"></i> Phone</label>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="email" required>
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+                <textarea  id="massage"  rows="8" required></textarea>
+                <label for="massage"><i class="fa-solid fa-comment"></i> My Massage</label>
+            </div>
+            <button type="submit">Submit <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+    </div>
+</body>
+</html>

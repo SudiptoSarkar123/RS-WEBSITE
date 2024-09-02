@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 0px;
+    z-index: 40;
+}
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px;
+    background: rgb(155,9,217);
+    background: linear-gradient(137deg, rgba(155,9,217,0.9837184873949579) 20%, rgba(201,204,181,1) 53%, rgba(51,141,228,1) 90%);
+    /* flex-basis: 20% ; */
+    
+}
+nav ul li{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+    padding: 10px 0;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav ul li a{
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+nav ul li:hover {
+    background-color: aquamarine;
+    color: black;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: white;
+}
+nav ul li ul{
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    transition: 0.4s ease-in-out;
+    /* width: 100%; */
+
+}
+nav ul li:hover .seen{
+    display: block;
+    z-index: 100;
+    
+}

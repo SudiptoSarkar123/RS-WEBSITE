@@ -1,2 +1,3 @@
 # RS-WEBSITE
-This is my first git project.<br>Author - sudipto
+This is my first git project.<br>Author - sudipto sarkar
+

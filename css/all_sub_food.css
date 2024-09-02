@@ -1,0 +1,97 @@
+body {
+    font-family: "roboto",sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 226, 43);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;300&display=swap');
+.container {
+    margin-top: 20px;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    border: 10px solid green;background: rgb(136,217,9);
+    background: linear-gradient(137deg, rgba(136,217,9,0.9837184873949579) 20%, rgba(201,204,181,1) 53%, rgba(51,228,146,1) 90%);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .heading h2{
+    font-size: 45px;
+    text-decoration: underline;
+}
+.image{
+    
+    border: 10px groove purple;
+    width: 500px;
+    overflow: hidden;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+img:hover{
+transform: scale(1.2);
+}
+
+.about {
+    margin-bottom: 20px;
+    text-indent: 20px;
+
+}
+.about span{
+    font-size: 40px;
+}
+
+.ingredients_and_method {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.ingredients_and_method .ingredients,
+.ingredients_and_method .method {
+    flex-basis: 48%;
+}
+.ingredients_and_method .ingredients{
+    background-color: rgba(242, 206, 161,0.5);
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.ingredients_and_method h3 {
+    margin: 10px 0;
+}
+
+.ingredients_and_method .method{
+    background-color: rgba(144, 159, 231, 0.5);
+    padding-right:20px;
+    padding-left:10px;
+    text-align: justify;
+    border-radius: 10px ;
+    border: 2px solid gray;
+}
+
+.ingredients_and_method ul,
+.ingredients_and_method ol {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
